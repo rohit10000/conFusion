@@ -37,11 +37,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6">
-                    <h1>India Tour</h1>
+                    <h1>Ristorante Con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm-3">
+                    <img class="d-flex mr-3 align-self-center" src="img/logo.png" alt="alberto">
                 </div>
+                <div class="col-12 col-sm-3">
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary" style="background-color: orange; width: 200px" href="#Task1">Reserve</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
@@ -70,8 +77,14 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0 ">Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="uthappizza">
+                </div>
+                
             </div>
         </div>
 
@@ -88,9 +101,49 @@
                         <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                     </div>
                 </div>
-                
             </div>
         </div>
+        <!-- Assignment 2: Task 1-->
+        <div class="row row-content align-items-center" id="Task1">
+            <div class="col-12 col-md-2"></div>
+            <div class="col-12 col-sm-8">
+                <div class="card">
+                    <h3 class="card-header text-white" style="background-color: orange">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <label for="Guests" class="col-md-2 col-form-label">Number of Guests</label>
+                                <div class="col-md-10 ">
+                                    <input type="radio" name="button" value="male">1
+                                    <input type="radio" name="button" value="male">2
+                                    <input type="radio" name="button" value="male">3
+                                    <input type="radio" name="button" value="male">4
+                                    <input type="radio" name="button" value="male">5
+                                    <input type="radio" name="button" value="male">6
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="Guests" class="col-md-2 col-form-label">Date and Time</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" name="button" placeholder="Date">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" name="button" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-primary">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
     </div>
 
     <footer class="footer">
@@ -126,6 +179,7 @@
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
                     </div>
                 </div>
+
            </div>
            <div class="row justify-content-center">
                 <div class="col-auto ">
